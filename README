@@ -62,3 +62,12 @@ Output 3:
 1 imported box of chocolates: 11.85
 Sales Taxes: 6.70
 Total: 74.68
+
+# What's look like a good solution:
+
+* Provides a simple command to run all tests and check the results
+* Pass all tests
+* Contains no duplication (both in test and production code)
+* Use good names
+* Does not contain superflous structure
+
