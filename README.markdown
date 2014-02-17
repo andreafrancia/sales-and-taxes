@@ -1,8 +1,28 @@
-This problem requires some kind of input. You are free to implement any 
-mechanism for feeding input into your solution (for example, using hard coded 
-data within a unit test). You should provide sufficient evidence that your 
-solution is complete by, as a minimum, indicating that it works correctly 
-against the supplied test data.
+# How to solve this problem
+
+We value the Simple Design so if possible try to apply it.
+
+A design is simple when:
+1) pass all tests
+2) contains no duplication
+3) express the intent (good names)
+4) is minimal
+
+This problem requires some kind of input. You don't have to set up a user 
+interface to do this, just put the input as hard coded data within unit tests. 
+
+You should provide sufficient evidence that your solution is complete by, as a 
+minimum, indicating that it works correctly against the supplied test data 
+(see section Examples below).  Your should also provide an automated test 
+suite that verifies your solution against these test data.
+
+# What's a good solution looks like 
+
+* Provides a simple command to run all tests and check the results
+* Pass all tests
+* Contains no duplication (both in test and production code)
+* Use good names
+* Does not contain superflous structure
 
 # Problem: Sales Taxes
 
@@ -63,11 +83,4 @@ Output 3:
 Sales Taxes: 6.70
 Total: 74.68
 
-# What's look like a good solution:
-
-* Provides a simple command to run all tests and check the results
-* Pass all tests
-* Contains no duplication (both in test and production code)
-* Use good names
-* Does not contain superflous structure
 
