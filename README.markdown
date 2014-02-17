@@ -16,14 +16,6 @@ minimum, indicating that it works correctly against the supplied test data
 (see section Examples below).  Your should also provide an automated test 
 suite that verifies your solution against these test data.
 
-# What's a good solution looks like 
-
-* Provides a simple command to run all tests and check the results
-* Pass all tests
-* Contains no duplication (both in test and production code)
-* Use good names
-* Does not contain superflous structure
-
 # Problem: Sales Taxes
 
 Basic sales tax is applicable at a rate of 10% on all goods, except books, 
